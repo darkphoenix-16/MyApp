@@ -6,7 +6,6 @@ export default function App() {
   return (
     <ImageBackground style={styles.bg} source={require("./assets/splash.png")}>
     <View style={styles.container}>
-<<<<<<< HEAD
       <ScrollView>
       <Text style={{fontSize : 30, }}>Hello hello!</Text>
        <Image source={require("./assets/icon.png")} style={styles.img}/>
@@ -65,10 +64,6 @@ export default function App() {
        <Text>helloooooo</Text>
        </View>
        </ScrollView>
-=======
-      <Text>Hello</Text>
-      <StatusBar style="auto" />
->>>>>>> 5529593 (App.js modified)
     </View>
     </ImageBackground>
   );
