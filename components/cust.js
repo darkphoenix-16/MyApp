@@ -2,11 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { Image, ImageBackground, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { appStyles } from './components/AppStyles';
 
-export default function App() {
+export default function Cust() {
   return (
+    <ImageBackground style={styles.bg} source={require("./assets/splash.png")}>
     <View style={styles.container}>
       <ScrollView>
-      <Text style={{fontSize : 30, }}>Breaking news</Text>
+      <Text style={{fontSize : 30, }}>Hello hello!</Text>
        <Image source={require("./assets/icon.png")} style={styles.img}/>
        <View style={appStyles.card}>
        <Text>helloooooo {"\n"}
@@ -64,7 +65,7 @@ export default function App() {
        </View>
        </ScrollView>
     </View>
-    
+    </ImageBackground>
   );
 }
 
