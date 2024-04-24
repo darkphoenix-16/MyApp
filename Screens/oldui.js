@@ -7,32 +7,32 @@ export function Oldui() {
     <View style={styles.container}>
       <ScrollView>
         <Text style={{ fontSize: 30, }}>Breaking news</Text>
-        <Image source={require("./assets/icon.png")} style={styles.img} />
+        <Image source={require("../assets/icon.png")} style={styles.img} />
         <View style={appStyles.card}>
           <Text>helloooooo {"\n"}
             lorem ipsum dolorcf vftrcd fghjbtdxrdrcfgbvhjk tycix hiunkbc cdxrhfbt gnicrerxbsdc jgnyuguyuf xerxvffghbnugftbfrtc.
           </Text>
         </View>
         <View style={appStyles.card}>
-          <Image source={require("./assets/icon.png")} style={styles.img} />
+          <Image source={require("../assets/icon.png")} style={styles.img} />
           <Text>helloooooo {"\n"}
             lorem ipsum dolorcf vftrcd fghjbtdxrdrcfgbvhjk tycix hiunkbc cdxrhfbt gnicrerxbsdc jgnyuguyuf xerxvffghbnugftbfrtc.
           </Text>
         </View>
         <View style={appStyles.card}>
-          <Image source={require("./assets/icon.png")} style={styles.img} />
+          <Image source={require("../assets/icon.png")} style={styles.img} />
           <Text>helloooooo {"\n"}
             lorem ipsum dolorcf vftrcd fghjbtdxrdrcfgbvhjk tycix hiunkbc cdxrhfbt gnicrerxbsdc jgnyuguyuf xerxvffghbnugftbfrtc.
           </Text>
         </View>
         <View style={appStyles.card}>
-          <Image source={require("./assets/icon.png")} style={styles.img} />
+          <Image source={require("../assets/icon.png")} style={styles.img} />
           <Text>helloooooo {"\n"}
             lorem ipsum dolorcf vftrcd fghjbtdxrdrcfgbvhjk tycix hiunkbc cdxrhfbt gnicrerxbsdc jgnyuguyuf xerxvffghbnugftbfrtc.
           </Text>
         </View>
         <View style={appStyles.card}>
-          <Image source={require("./assets/icon.png")} style={styles.img} />
+          <Image source={require("../assets/icon.png")} style={styles.img} />
           <Text>helloooooo {"\n"}
             lorem ipsum dolorcf vftrcd fghjbtdxrdrcfgbvhjk tycix hiunkbc cdxrhfbt gnicrerxbsdc jgnyuguyuf xerxvffghbnugftbfrtc.
           </Text>

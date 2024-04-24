@@ -6,7 +6,7 @@ export function Login() {
     let num = "568888";
 
     return (
-        <SafeAreaView style={{flex: 1}}>
+        // <SafeAreaView style={{flex: 1}}>
             <View style={styles.container}>
                 <Text style={styles.header}>login</Text>
                 <TextInput 
@@ -21,11 +21,11 @@ export function Login() {
                 <Button title ="submit" color={"green"}/>
                   </View> */}
                   <TouchableOpacity onPress={()=>{console.log(text);}} style={styles.btn}>
-                    <Text style={{color: white}}>Submit</Text>
+                    <Text style={{color: "white"}}>Submit</Text>
                   </TouchableOpacity>
 
             </View>
-        </SafeAreaView>
+        // </SafeAreaView>
     )
 }
 
