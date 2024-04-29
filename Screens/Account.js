@@ -25,11 +25,12 @@ export function Account() {
 const styles = StyleSheet.create({
     bg: {
         flex: 1,
+        
     },
     container: {
         flex: 1,
         marginTop: StatusBar.currentHeight,
-        backgroundColor: "#74aad39d",
+        backgroundColor: "#bae77b21",
     },
     text: {
         fontSize: 40,
@@ -48,7 +49,8 @@ const styles = StyleSheet.create({
         display:"flex",
     },
     btn: {
-        backgroundColor: "#7EA1FF",
+        backgroundColor:"#98bb23b8",
+        borderColor:"green",
         borderRadius: 30,
         padding: 17,
         alignItems: "flex-start",
@@ -58,7 +60,8 @@ const styles = StyleSheet.create({
         marginLeft: 42
       },
       btnn: {
-        backgroundColor: "#7EA1FF",
+        backgroundColor:"#98bb23b8",
+        borderColor:"green",
         borderRadius: 30,
         padding: 17,
         alignItems: "flex-end",

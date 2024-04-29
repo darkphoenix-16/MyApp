@@ -12,8 +12,8 @@ export default function App() {
       {/* <Oldui/> */}
       {/* <Login/> */}
       {/* <Position/> */}
-      {/* <Account/> */}
-      <SignIn/>
+      <Account/>
+      {/* <SignIn/> */}
       {/* <SignUp/> */}
     </View>
   );
