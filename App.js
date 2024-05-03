@@ -5,6 +5,7 @@ import { Position } from './Screens/Position';
 import { Account } from './Screens/Account';
 import { SignIn } from './Screens/SignIn';
 import { SignUp } from './Screens/SignUp';
+import { Products } from './Screens/Products';
 
 export default function App() {
   return (
@@ -12,9 +13,10 @@ export default function App() {
       {/* <Oldui/> */}
       {/* <Login/> */}
       {/* <Position/> */}
-      <Account/>
+      {/* <Account/> */}
       {/* <SignIn/> */}
       {/* <SignUp/> */}
+      <Products/>
     </View>
   );
 }
